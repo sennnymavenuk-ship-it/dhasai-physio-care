@@ -19,6 +19,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onBookC
     { id: 'exercises', label: 'Exercises' },
     { id: 'booking', label: 'Booking' },
     { id: 'doctor', label: 'Doctor Profile' },
+    { id: 'support', label: 'Health Care Support Team' },
     { id: 'tips', label: 'Tips' },
   ];
 

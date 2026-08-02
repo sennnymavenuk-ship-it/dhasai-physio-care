@@ -8,6 +8,7 @@ import { ExercisesSection } from './components/ExercisesSection';
 import { BookingSection } from './components/BookingSection';
 import { DoctorProfileSection } from './components/DoctorProfileSection';
 import { TipsSection } from './components/TipsSection';
+import { SupportStaffSection } from './components/SupportStaffSection';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<PageTab>('home');
@@ -57,6 +58,11 @@ export default function App() {
             setActiveTab={setActiveTab}
             onBookClick={() => handleBookClick()}
           />
+        )}
+
+        {activeTab === 'support' && (
+          <SupportStaffSection 
+            setActiveTab={setActiveTab} />
         )}
 
         {activeTab === 'tips' && (

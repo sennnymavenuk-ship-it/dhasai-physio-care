@@ -20,6 +20,34 @@ export const CLINIC_INFO = {
     address: "No. 2, Mylapore High Road, Mylapore, Chennai, Tamil Nadu 600004",
     bio: "Dr. Dhanush PT is a renowned physiotherapy practitioner specializing in muscle recovery, chronic joint pain, and post-operative mobility. Dedicated to clinical precision and patient comfort, he combines evidence-based manual therapy with daily home exercise routines to restore pain-free movement."
   },
+  supportStaff: {
+  name: "Mr. Senthil Kumar",              // replace with actual name
+  role: "Health Care & Patient Support Coordinator",
+  bio: "Senthil is the Hospital manager at Dhasai Physio Care, reviewing appointment scheduling, patient enquiries, insurance coordination, and general support to ensure a smooth experience for every visitor.",
+  directPhone: "+91 99627 05881",
+  email: "support@dhasaiphysio.care",
+  workingHours: "Mon - Sat: 08:00 - 18:00",
+  responsibilities: [
+    "Appointment scheduling & rescheduling",
+    "General enquiries & walk-in support",
+    "Billing and insurance coordination",
+    "Patient records management"
+  ]
+  },
+  hospStaff: {
+  name: "Mr. Parthasarathy",              // replace with actual name
+  role: "Front Desk Coordinator",
+  bio: "Partha is the first point of contact at Dhasai Physio Care, handling appointment scheduling, patient enquiries, insurance coordination, and general support to ensure a smooth experience for every visitor.",
+  directPhone: "+91 98765 12345",
+  email: "support@dhasaiphysio.care",
+  workingHours: "Mon - Sat: 08:00 - 18:00",
+  responsibilities: [
+    "Appointment scheduling & rescheduling",
+    "General enquiries & walk-in support",
+    "Billing and insurance coordination",
+    "Patient records management"
+  ]
+},
   social: {
     instagram: "@dhasaiphysio.care",
     followers: "12k Followers",
